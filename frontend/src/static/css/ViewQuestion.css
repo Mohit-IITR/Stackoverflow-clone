@@ -1,0 +1,43 @@
+.ck {
+    height: 200px;
+}
+
+.d-flex button {
+    padding: 0;
+    border: none;
+}
+
+.left-column div{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+.right-column{
+    padding: 10px;
+    width: 100%;
+}
+.tag{
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 14px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    color: black
+}
+.tag div{
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+    margin-right: 10px;
+    padding: 0 10px;
+    padding-right: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+    white-space: nowrap;
+    color: white;
+}
+
+

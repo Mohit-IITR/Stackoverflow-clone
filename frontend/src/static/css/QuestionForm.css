@@ -1,0 +1,64 @@
+.container {
+  margin-top: 30px;
+
+}
+
+Form {
+  border: 1px solid black;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+label {
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.containerTag {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 14px;
+  border: 1px grey solid;
+  border-radius: 5px;
+  color: black
+}
+
+.containerTag input {
+  width: 100%;
+  min-width: 50%;
+  border: none;
+  border-radius: 5px;
+  padding: 14px;
+  padding-left: 14px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  margin-right: 10px;
+  padding: 0 10px;
+  padding-right: 5px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  overflow: auto;
+  background-color: orange;
+  white-space: nowrap;
+  color: white;
+}
+
+.tag button {
+  display: flex;
+  padding: 6px;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  color: white;
+}
+
+.ck {
+  height: 200px;
+}
